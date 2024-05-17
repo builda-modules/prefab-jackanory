@@ -1,0 +1,9 @@
+{
+  "name": "page",
+  "type": "blueprint",
+  "files": [
+    "temp_name.stories.tsx",
+    "temp_name.mdx",
+    "index.tsx"
+  ]
+}

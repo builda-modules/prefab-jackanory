@@ -1,0 +1,46 @@
+{
+  "name": "prefab-jackanory",
+  "type": "prefab",
+  "version": "0.0.1",
+  "author": {
+    "name": "Alex Foxleigh",
+    "buildaUser": "foxleigh81"
+  },
+  "funding": [
+    "https://www.patreon.com/builda"
+  ],
+  "url": "https://github.com/builda-modules/prefab-jackanory",
+  "blueprints": {
+    "component": {
+      "location": "prefab"
+    },
+    "page": {
+      "location": "prefab"
+    }
+  },
+  "generatorOptions": {
+    "rootFiles": [
+      "pages/home",
+      {
+        "path": "app-config.ts",
+        "rewrite": true
+      },
+      ".env.local.example",
+      "public/icons/app-logo.svg"
+    ],
+    "applicationOnlyFiles": [
+      {
+        "path": "unique.tsconfig.json"
+      }
+    ],
+    "extraFolders": [
+      "components/local",
+      "partials",
+      "lib/helpers",
+      "lib/types",
+      "lib/services",
+      "lib/mocks",
+      "lib/hooks"
+    ]
+  }
+}

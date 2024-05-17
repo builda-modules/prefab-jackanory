@@ -1,0 +1,10 @@
+{
+  "name": "component",
+  "type": "blueprint",
+  "files": [
+    "index.stories.tsx",
+    "index.mdx",
+    "index.tsx",
+    "styles.module.scss"
+  ]
+}

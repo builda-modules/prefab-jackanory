@@ -1,0 +1,8 @@
+.%KEBAB_CASE% {
+  padding: padding(1);
+  background-color: col.$bg;
+  border: 2px dashed  #FF00FF;
+  @include util.dark-mode {
+    background-color: col.$bg-dark;
+  }
+}
